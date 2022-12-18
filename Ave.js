@@ -6,13 +6,14 @@ export class Ave extends Animal {
     }
 
    voar(){
-    console.log("A ave " + this.getNome() + " da especie " + this.getEspecie() + " voou")      ;
+    return "A ave " + this.getNome() + " da especie " + this.getEspecie() + " voou" ;
 }
     baterAsas(){
-        console.log("A ave " + this.getNome() + " da especie " + this.getEspecie + " bateu as asas");
+        return "A ave " + this.getNome() + " da especie " + this.getEspecie() + " bateu as asas";
     }
 
     piar(){
-        console.log("A ave " + this.getNome() + " da especie "+ this.getEspecie + " piou");
+
+        return "A ave " + this.getNome() + " da especie "+ this.getEspecie() + " piou";
     }
 }

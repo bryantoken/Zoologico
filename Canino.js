@@ -6,14 +6,14 @@ export class Canino extends Animal {
     }
 
     farejar(){
-        console.log("O canino " + this.getNome() + " da especie " + this.getEspecie + " farejou");
+        return "O canino " + this.getNome() + " da especie " + this.getEspecie() + " farejou";
     }
 
     grunhir(){
-        console.log("O canino " + this.getNome() + " da especie " + this.getEspecie + " grunhiu");
+        return "O canino " + this.getNome() + " da especie " + this.getEspecie() + " grunhiu";
     }
 
     uivar(){
-        console.log("O canino " + this.getNome() +" da especie "+ this.getEspecie +  " uivou");
+        return "O canino " + this.getNome() +" da especie "+ this.getEspecie() +  " uivou";
     }
 }

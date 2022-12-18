@@ -6,14 +6,14 @@ export class Felino extends Animal {
     }
 
     miar(){
-        console.log("O felino " + this.getNome() + " da especie " + this.getEspecie + " miou");
+        return "O felino " + this.getNome() + " da especie " + this.getEspecie() + " miou";
     }
 
     ronronar(){
-        console.log("O felino " + this.getNome() +" da especie " + this.getEspecie +  " ronronou");
+        return "O felino " + this.getNome() +" da especie " + this.getEspecie() +  " ronronou";
     }
 
     higienizar(){
-        console.log("O felino " + this.getNome() +" da especie "+ this.getEspecie +  " higienizou");
+        return "O felino " + this.getNome() +" da especie "+ this.getEspecie() +  " higienizou";
     }
 }

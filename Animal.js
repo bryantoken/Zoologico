@@ -53,12 +53,12 @@ export class Animal{
         this.#data = novaData;
     }
 
-    comer(comida){
-        console.log(this.#nome + " comeu: " + comida)
+    comer(){
+        return "comeu"
     }
 
-    andar(passos){
-        console.log(this.#nome + " andou: " + passos)
+    andar(){
+        return "andou"
     }   
 
 }
